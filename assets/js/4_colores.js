@@ -9,7 +9,6 @@ cuadradoVerde.addEventListener("click", () => pintarNegro(cuadradoVerde))
 cuadradoAmarillo.addEventListener("click", () => pintarNegro(cuadradoAmarillo))
 
 const cuadradoKey = document.querySelector("#key")
-const cuadradoKey2 = document.querySelector("#key2")
 
 let color = "white"
 
