@@ -5,7 +5,7 @@ function pintar(ele, color){
     ele.style.backgroundColor = color
     }
 
-elemento.addEventListener("click", function(ele){
+elemento.addEventListener("click", function(eleClick){
     let color = "yellow"
-    pintar(ele.target, color)
+    pintar(eleClick.target, color)
 })
